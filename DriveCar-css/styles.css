@@ -22,13 +22,11 @@ body{
     bottom:0%;
     left:0%;
     background-repeat: repeat-x;
-    animation:moveRight 6s linear infinite;
 }
 .car{
     position: absolute;
     bottom:8%;
     left:24%;
-    animation:suspension 1s linear infinite;
 }
  
 /* animations */
@@ -46,4 +44,11 @@ body{
     0%{
         transform:translateY(-1px);
     }
+}
+.moveRight{
+    animation:moveRight 6s linear infinite;
+}
+.suspension{
+    animation:suspension 1s linear infinite;
+
 }
