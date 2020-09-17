@@ -20,8 +20,8 @@ body{
 .book-page:hover{
     transform: translate(-50%, -50%) perspective(2000px)
     rotate(-10deg);
-    box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0px 10px 100px
-    rgba(0,0,0,.5);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.315), 0px 10px 100px
+    rgba(0,0,0,.315);
 }
 .book-page:before{
     content:'';
